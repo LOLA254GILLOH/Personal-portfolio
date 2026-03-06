@@ -83,6 +83,7 @@ section {
 }
 
 .home {
+  position: relative;
   display: flex;
   align-items: center;
   padding: 0 9%;
@@ -243,14 +244,9 @@ section {
   width: 100%;
 }
 
-.home-img {
-  position: relative;
-  width: 50%;
-  height: 80vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 70px 10% 0;
+.home-img img{
+  max-width: 450px;
+ 
 }
 
 .about { 
